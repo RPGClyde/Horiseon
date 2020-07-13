@@ -1,3 +1,3 @@
 # Horiseon
 
-The purpose of this exercise is to replace the <div> tags with more semantic tags
+The purpose of this exercise is to replace the <div> tags with more semantic tags.  For the <div> with the "header" class, I chose the <header> tag.  Nested inside that were links that lead to the main content of the page.  I put those inside <nav> tags.  This lead to needing to adjust the CSS linked to those <div>s.  For the "content" class, I used the <main> tag to indicate this is the main content of the page.  Inside the <main> tag, I nested the content in <section> tags.  The content that displays information to the side, with the "benefits" class, I placed in <aside> tags.  Nested inside this, I used <section> tags.  The content under the class "footer", I wrapped in a <footer> tag.
